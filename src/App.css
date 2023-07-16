@@ -20,6 +20,9 @@ html, body, #root {
     flex-direction: column;
 }
 
+.main-container h1 {
+    color:#fff ;
+}
 .search {
     outline: none;
     padding: 20px 7%;
