@@ -18,7 +18,7 @@ const App = () => {
 
     return(
         <div className="main-container">
-            <h1>Weather App</h1>
+            <h1>PWA Weather App</h1>
             <input type="text" className="search" value={query} onChange={(e) => setQuery(e.target.value)} onKeyDown={search} placeholder="Search city..." />
             {weather.main && (
                 <div className="city">
@@ -37,6 +37,7 @@ const App = () => {
                     
                 </div>
             )}
+            <footer className="footer">Made with <span>&hearts; </span> by <a href="https://github.com/deBugger360" target="_blank">deBugger360</a></footer>
         </div>
     );
 }
